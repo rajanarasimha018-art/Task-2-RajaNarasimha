@@ -45,6 +45,8 @@ The project architecture strictly follows the **Input–Process–Output (IPO)**
   - `petal length (cm)`
   - `petal width (cm)`
 
+![Iris Feature Space & Class Separability](assets/feature_space.png)
+
 ### 2. Process: Supervised Pipeline & The Gatekeeper Rule
 - **Order Bias Removal**: Dataset is shuffled prior to splitting.
 - **Split Ratio**: 80% Training (120 samples) and 20% Held-Out Testing (30 samples) with fixed seed (`random_state=42`) for reproducibility.
